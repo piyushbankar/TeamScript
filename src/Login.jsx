@@ -33,7 +33,7 @@ const Login = ({ setlogin, username, roomid, setusername, setroomid }) => {
 
             <Image src="xcode.png" boxSize="100px" alt="" srcSet="" />
          
-            <Heading>X-Code Editor</Heading>
+            <Heading>TeamScript</Heading>
         </div>
 
             <Box maxW="sm" p="6" borderWidth="1px" borderRadius="lg" boxShadow="md">

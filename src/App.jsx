@@ -40,7 +40,7 @@ const App = () => {
 
               <Image src="xcode.png" boxSize="100px" alt="" srcSet="" />
 
-              <Heading>X-Code Editor</Heading>
+              <Heading>TeamScript</Heading>
             </div>
           </Center>
           <CodeEditor roomid={roomid} username={username} />
