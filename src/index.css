@@ -1,0 +1,87 @@
+/* index.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: auto; */ */
+}
+
+.box1{
+  width: 65%;
+}
+
+.box2{
+  width: 30%;
+  height: calc(90vh-20px);
+}
+
+.box2 button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.generate{
+
+  font-size: 13px;
+  color: #eee;
+  text-align:end ;
+  padding: 5px;
+  cursor: pointer;
+
+}
+
+.generate:hover{
+  color: white;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .box1{
+    width:100%;
+  }
+  
+  .box2{
+    width: 100%;
+    height: calc(90vh-20px);
+  }
+  
+}
